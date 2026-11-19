@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+
+# Logs e dados locais
+*.log
+*.sqlite
+*.db
+
+# Editores e sistemas operacionais
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Node.js (caso seja adotado futuramente)
+node_modules/
+npm-debug.log*
